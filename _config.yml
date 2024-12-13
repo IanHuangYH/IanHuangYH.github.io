@@ -58,7 +58,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 author:
-  name: "Your Name"
+  name: "Tzu-Yuan Huang"
   avatar: "/assets/images/bio-photo.jpg"
   bio: "I am an **amazing** person." # Note: Markdown is allowed
   location: "Somewhere"
