@@ -1,0 +1,12 @@
+/* Custom overrides for site (persistent source file) */
+/* News spacing */
+#news { margin-top: 1rem; }
+.news-list { list-style: none; padding: 0; margin: 0; }
+.news-item { display: flex; gap: 0.8rem; align-items: flex-start; padding: 0.35rem 0; border-bottom: 1px solid #eee; }
+.news-date { min-width: 4.5rem; font-weight: 600; color: #333; flex-shrink: 0; }
+.news-body { flex: 1; color: #444; }
+
+@media (max-width: 640px) {
+  .news-item { display: block; }
+  .news-date { display: block; margin-bottom: 0.35rem; }
+}

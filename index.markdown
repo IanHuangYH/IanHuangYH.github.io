@@ -8,18 +8,41 @@ header:
 
 
 <!-- # About Me -->
-I'm currently a PhD student in [Prof. Sandra Hirche](https://www.ce.cit.tum.de/en/itr/home)'s ITR Lab at TU Munich. My research focuses on learning-based control and motion planning on robotics. In particular, I’m interested in leveraging generative model to learn the control policy of robots.
+I am currently a PhD student in the [ITR Lab](https://www.ce.cit.tum.de/itr/startseite/) at [TUM](https://www.tum.de/en/), supervised by [Prof. Sandra Hirche](https://www.ce.cit.tum.de/en/itr/home), and a member of [RelAI](https://zuseschoolrelai.de/). My research focuses on the intersection of generative models and control theory for robotic systems.
+Previously, I worked as an R&D engineer at [Syntec Technology](https://www.syntecclub.com/), developing trajectory planning algorithms.
 
-Previously, I worked as an R&D engineer at SYNTEC, one of the leading PC-based controller companies in Asia, where I developed motion planning algorithms in embedded systems. I received MSc degrees in Electrical Engineering and BSc degrees in Mechanical Engineering at National Cheng Kung University (NCKU), where I worked on motion planning of robot manipulators with [Prof. Ming-Yang Cheng](https://www.ee.ncku.edu.tw/en/teacher/index2.php?teacher_id=143) and [Advance Technology Research Center, Delta Electronics, Inc.](https://www.deltaww.com/en-US/index).  
+# News
+<div id="news">
+  <ul class="news-list">
+  {% for item in site.data.news %}
+    <li class="news-item">
+      <span class="news-date">{{ item.date }}</span>
+      <span class="news-body"> {{ item.content }} </span>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
 
 # Publications
+- **SAD-Flower: Flow Matching for Safe, Admissible, and Dynamically Consistent Planning**
+  <br>
+  **Tzu-Yuan Huang**, Armin Lederer, Dai-Jie Wu, Xiaobing Dai, Sihua Zhang, Stefan Sosnowski, Shao-Hua Sun, Sandra Hirche
+  <br>
+  *ICLR, 2026 (under review).*
+  <br>
+  [[Paper](https://arxiv.org/pdf/2511.05355)]
+
 - **Toward Near-Globally Optimal Nonlinear Model Predictive Control via Diffusion Models**
   <br>
   **Tzu-Yuan Huang\***, Armin Lederer\*, Nicolas Hoischen, Jan Brüdigam, Xuehua Xiao, Stefan Sosnowski, Sandra Hirche
   <br>
-  *arXiv preprint, 2024.*
+  *Learning for Dynamics & Control Conference (L4DC), 2024.*
   <br>
-  [[arxiv](https://arxiv.org/pdf/2412.08278)]
+  Oral Presentation.
+  <br>
+  Nominated for the Best Paper Award.
+  <br>
+  [[Paper](https://arxiv.org/pdf/2412.08278)]
 
 - **Learning-based Prescribed-Time Safety for Control of Unknown Systems with Control Barrier Functions**
   <br>
@@ -35,7 +58,7 @@ Previously, I worked as an R&D engineer at SYNTEC, one of the leading PC-based c
   <br>
   *63rd IEEE Conference on Decision and Control (CDC), 2024*
   <br>
-  [[arxiv](https://arxiv.org/pdf/2408.05319)]
+  [[Paper](https://arxiv.org/pdf/2408.05319)]
 
 - **A Rapid Base Parameter Physical Feasibility Test Algorithm for Industrial Robot Manipulator Identification Using a Recurrent Neural Network**
   <br>
